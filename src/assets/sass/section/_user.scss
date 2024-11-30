@@ -1,0 +1,68 @@
+.Login_wrap,
+.Join_wrap,
+.Joindone_wrap {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+
+    .header {
+        position: absolute;
+        top: 100px;
+        left: 20px;
+
+        a {
+            img {
+                width: 24px;
+            }
+        }
+    }
+
+    .main {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        display: flex;
+
+        h2, h1 {
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--main01);
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 0px;
+        }
+
+        input {
+            width: 100%;
+            border-radius: 10px;
+            border: 1px solid var(--main01);
+            margin-bottom: 10px;
+            height: 50px;
+            padding: 10px 20px;
+        }
+
+        ::placeholder {
+            color: var(--gray200);
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        button {
+            background-color: var(--main01);
+            height: 50px;
+            border-radius: 10px;
+            color: var(--white);
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        >a {
+            color: var(--gray400);
+        }
+    }
+}

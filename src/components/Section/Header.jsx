@@ -7,7 +7,7 @@ const Header = () => {
         <div className='Header_wrap'>
             <div>
                 <h1>만원의 행복</h1>
-                <Link to='/mypage'>
+                <Link to='/login'>
                     <img src={Mypage} alt="mypage" />
                 </Link>
             </div>
