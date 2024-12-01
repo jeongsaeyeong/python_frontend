@@ -1,0 +1,140 @@
+.Scrap_wrap {
+    >.header {
+        margin-top: 20px;
+        display: flex;
+        width: 100%;
+        height: 45px;
+        border-bottom: 1px solid var(--main01);
+
+        >div {
+            cursor: pointer;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .click {
+            background-color: var(--main01);
+            color: var(--white);
+        }
+    }
+
+    >.main {
+
+        h2 {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--main01);
+        }
+
+        .point {
+            margin-top: 20px;
+            text-align: center;
+
+            >p {
+                margin-top: 15px;
+                width: 100%;
+                height: 150px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: var(--main01);
+                border: 3px solid var(--main01);
+                font-size: 48px;
+                border-radius: 20px;
+            }
+        }
+
+        .visit {
+            h2 {
+                text-align: center;
+                margin-top: 15px;
+                padding: 15px 0;
+                border-top: 1px solid var(--main01);
+                border-bottom: 1px solid var(--main01);
+            }
+        }
+    }
+}
+
+.Filter_wrap {
+    h2 {
+        font-size: 18px;
+        color: var(--main01);
+        font-weight: 700;
+    }
+
+    >.header {
+        margin-top: 10px;
+        padding: 10px 0;
+        border-bottom: 1px solid var(--main01);
+    }
+
+    .filter_header {
+        margin-top: 20px;
+        display: flex;
+        width: 100%;
+        height: 45px;
+        border-bottom: 1px solid var(--main01);
+
+        >div {
+            cursor: pointer;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .click {
+            background-color: var(--main01);
+            color: var(--white);
+        }
+    }
+
+    .main {
+        .filter {
+            padding-top: 10px;
+            border-bottom: 1px solid var(--gray200);
+
+            h2 {
+                padding-bottom: 10px;
+                border-bottom: 1px solid var(--gray200);
+            }
+
+            .filters {
+                margin-top: 10px;
+                width: 100%;
+                flex-wrap: wrap;
+                display: flex;
+
+                >p {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 37px;
+                    padding: 5px 20px;
+                    border: 1px solid var(--main01);
+                    border-radius: 50px;
+                    margin-left: 5px;
+                    margin-bottom: 10px;
+                    font-size: 14px;
+                }
+
+                .click {
+                    background-color: var(--main01);
+                    color: var(--white);
+                }
+            }
+        }
+
+        >button {
+            margin-top: 20px;
+            width: 100%;
+            height: 50px;
+            border-radius: 10px;
+            color: var(--white);
+            background-color: var(--main01);
+        }
+    }
+}

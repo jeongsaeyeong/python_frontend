@@ -8,9 +8,9 @@ const Nav = () => {
     return (
         <div className='Nav_wrap'>
             <div>
-                <Link to='/'><img src={HartBin} alt="" /></Link>
+                <Link to='/scrap'><img src={HartBin} alt="" /></Link>
                 <Link to='/'><img src={Homefull} alt="" /></Link>
-                <Link to='/'><img src={SearchBin} alt="" /></Link>
+                <Link to='/filter'><img src={SearchBin} alt="" /></Link>
             </div>
         </div>
     )

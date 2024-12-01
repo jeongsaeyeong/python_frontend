@@ -25,7 +25,8 @@
         text-align: center;
         display: flex;
 
-        h2, h1 {
+        h2,
+        h1 {
             font-size: 20px;
             font-weight: 700;
             color: var(--main01);
@@ -63,6 +64,55 @@
 
         >a {
             color: var(--gray400);
+        }
+    }
+}
+
+.Mypage_wrap {
+    .header {
+        padding-top: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        >img {
+            width: 96px;
+        }
+
+        h1 {
+            margin-top: 10px;
+            font-size: 20px;
+            color: var(--main01);
+            font-weight: 700;
+        }
+
+        p {
+            font-size: 16px;
+            color: var(--gray400);
+        }
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        >a, button {
+            margin-top: 15px;
+            width: 100%;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            border: 1px solid var(--main01);
+        }
+
+        button {
+            border: 0;
+            background-color: #CC3F3F;
+            color: var(--white);
         }
     }
 }

@@ -7,6 +7,8 @@ import Login from './components/User/Login'
 import Join from './components/User/Join'
 import Joindone from './components/User/Joindone'
 import Mypage from './components/Mypage/Mypage'
+import Scrap from './components/Scrap/Scrap'
+import Filter from './components/FIlter/Filter'
 
 const App = () => {
     return (
@@ -18,6 +20,8 @@ const App = () => {
                 <Route path='/join' element={<Join />} />
                 <Route path='/joinend' element={<Joindone />} />
                 <Route path='/mypage' element={<Mypage />} />
+                <Route path='/scrap' element={<Scrap />} />
+                <Route path='/filter' element={<Filter />} />
             </Routes>
             <Nav />
         </BrowserRouter>

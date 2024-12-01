@@ -8,60 +8,77 @@
         border-bottom: 1px solid var(--main01);
     }
 
-    .list_wrap {
-        .list {
-            width: 100%;
+}
+
+.list_wrap {
+    .list {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 0;
+        border-bottom: 1px solid var(--gray100);
+
+        >img {
+            width: 100px;
+            border-radius: 10px;
+        }
+
+        .content {
+            min-height: 100px;
+            width: calc(100% - 120px);
             display: flex;
+            flex-direction: column;
             justify-content: space-between;
-            align-items: center;
-            padding: 15px 0;
-            border-bottom: 1px solid var(--gray100);
+            position: relative;
 
-            >img {
-                width: 100px;
-                border-radius: 10px;
-            }
-
-            .content {
-                min-height: 100px;
-                width: calc(100% - 120px);
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-
-                .top {
-                    .header {
-                        display: flex;
-                        justify-content: space-between;
-                        align-items: center;
-
-                        >h4 {
-                            font-size: 14px;
-                            color: var(--main01);
-                            font-weight: 600;
-                        }
-
-                        >img {
-                            width: 25px;
-                        }
-                    }
-
-                    .introduce {
-                        font-size: 15px;
-                        color: var(--gray600);
-                    }
-                }
-
-                .tage {
+            .top {
+                .header {
                     display: flex;
+                    justify-content: space-between;
                     align-items: center;
 
-                    >p {
-                        margin-right: 5px;
-                        font-size: 15px;
-                        color: var(--gray700);
+                    >h4 {
+                        font-size: 14px;
+                        color: var(--main01);
+                        font-weight: 600;
+                    }
+
+                    >img {
+                        width: 25px;
                     }
                 }
+
+                .introduce {
+                    font-size: 15px;
+                    color: var(--gray600);
+                }
+            }
+
+            .tage {
+                display: flex;
+                align-items: center;
+
+                >p {
+                    margin-right: 5px;
+                    font-size: 15px;
+                    color: var(--gray700);
+                }
+            }
+
+            >button {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 12px;
+                color: var(--main01);
+                border-radius: 30px;
+                border: 1px solid var(--main01);
+                width: 90px;
+                height: 23px;
             }
         }
     }
